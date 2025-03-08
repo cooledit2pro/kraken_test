@@ -1,0 +1,298 @@
+
+c:\MASTER\New folder>python crypto_compare_pilot.py
+🔍 Kraken Pair Map from CoinGecko: {'BTCUSD': 'kraken', 'XRPUSD': 'kraken', 'USDTUSD': 'kraken', 'BTCEUR': 'kraken', 'SOLUSD': 'kraken', 'XRPEUR': 'kraken', 'SUIUSD': 'kraken', 'ADAEUR': 'kraken', 'USDCUSDT': 'kraken', 'BTCUSDC': 'kraken', 'ADAUSD': 'kraken', 'ETHUSDC': 'kraken', 'SOLEUR': 'kraken', 'LTCUSD': 'kraken', 'SOLUSDT': 'kraken', 'BTCGBP': 'kraken', 'LINKUSD': 'kraken', 'TRUMPUSD': 'kraken', 'DOTUSD': 'kraken', 'ONDOUSD': 'kraken', 'ETHGBP': 'kraken', 'KASUSD': 'kraken', 'LTCEUR': 'kraken', 'XRPUSDC': 'kraken', 'SOLGBP': 'kraken', 'SOLUSDC': 'kraken', 'XRPGBP': 'kraken', 'LINKEUR': 'kraken', 'SPXUSD': 'kraken', 'TAOUSD': 'kraken', 'ADAUSDT': 'kraken', 'XLMUSD': 'kraken', 'WIFUSD': 'kraken', 'ENAUSD': 'kraken', 'LINKXBT': 'kraken', 'FARTCOINUSD': 'kraken', 'TIAUSD': 'kraken', 'ADAUSDC': 'kraken', 'AAVEUSD': 'kraken', 'AKTUSD': 'kraken', 'KASEUR': 'kraken', 'SYRUPUSD': 'kraken', 'ADAGBP': 'kraken', 'ALGOUSD': 'kraken', 'RENDERUSD': 'kraken', 'INJUSD': 'kraken', 'KAITOUSD': 'kraken', 'CRVUSD': 'kraken', 'SEIUSD': 'kraken', 'POPCATUSD': 'kraken', 'XCNUSD': 'kraken', 'AI16ZUSD': 'kraken', 'SPXEUR': 'kraken', 'XRPCAD': 'kraken', 'COMPUSD': 'kraken', 'PNUTUSD': 'kraken', 'QNTUSD': 'kraken', 'ONDOEUR': 'kraken', 'TAOEUR': 'kraken', 'ELXUSD': 'kraken', 'SUIGBP': 'kraken', 'JASMYUSD': 'kraken', 'ACHUSD': 'kraken', 'JAILSTOOLUSD': 'kraken', 'BTCDAI': 'kraken', 'FARTCOINUSDT': 'kraken', 'ATOMGBP': 'kraken', 'PENGUUSD': 'kraken', 'RAYUSD': 'kraken', 'SUPERUSD': 'kraken', 'KAITOEUR': 'kraken', 'VIRTUALUSD': 'kraken', 'RENDEREUR': 'kraken', 'MORPHOUSD': 'kraken', 'XRPAUD': 'kraken', 'LTCGBP': 'kraken', 'ATHUSD': 'kraken', 'SOLAUD': 'kraken', 'QNTEUR': 'kraken', 'MOVEUSD': 'kraken', 'ACHEUR': 'kraken', 'FLRUSD': 'kraken', 'FLUXUSD': 'kraken', 'GRIFFAINUSD': 'kraken', 'FARTCOINEUR': 'kraken', 'BEAMUSD': 'kraken', 'REZUSD': 'kraken', 'SOLCAD': 'kraken', 'FWOGUSD': 'kraken', 'NEIROUSD': 'kraken', 'WUSD': 'kraken', 'LUNAUSD': 'kraken', 'LINKGBP': 'kraken', 'GIGAUSD': 'kraken', 'PHAUSD': 'kraken', 'REDUSD': 'kraken', 'DRIFTUSD': 'kraken', 'VINEUSD': 'kraken', 'SCRTUSD': 'kraken', 'AUCTIONUSD': 'kraken'}
+🔍 Bitget Raw Data Count: 883
+🔍 Kraken Raw Data Count: 0
+🔍 Checking if pair BTCUSDT is supported by market Binance
+🔍 Market Binance supports pair BTCUSDT: True
+🔍 Binance URL: https://api.binance.com/api/v3/ticker/price?symbol=BTCUSDT
+🔍 Binance Response Code: 200, Response: {"symbol":"BTCUSDT","price":"86410.86000000"}
+🔍 Extracting price for Binance, Raw Data: {'symbol': 'BTCUSDT', 'price': '86410.86000000'}
+🔍 Checking if pair BTCUSDT is supported by market Bybit
+🔍 Market Bybit supports pair BTCUSDT: True
+🔍 Bybit URL: https://api.bybit.com/v5/market/tickers?category=spot&symbol=BTCUSDT
+🔍 Bybit Response Code: 200, Response: {"retCode":0,"retMsg":"OK","result":{"category":"spot","list":[{"symbol":"BTCUSDT","bid1Price":"86424.78","bid1Size":"0.295857","ask1Price":"86424.79","ask1Size":"0.271524","lastPrice":"86424.78","pre
+🔍 Extracting price for Bybit, Raw Data: {'retCode': 0, 'retMsg': 'OK', 'result': {'category': 'spot', 'list': [{'symbol': 'BTCUSDT', 'bid1Price': '86424.78', 'bid1Size': '0.295857', 'ask1Price': '86424.79', 'ask1Size': '0.271524', 'lastPrice': '86424.78', 'prevPrice24h': '88377.53', 'price24hPcnt': '-0.0221', 'highPrice24h': '89068.92', 'lowPrice24h': '85226.28', 'turnover24h': '784073098.89341202', 'volume24h': '9022.359591', 'usdIndexPrice': '86383.660739'}]}, 'retExtInfo': {}, 'time': 1741449723372}
+🔍 Checking if pair BTC-USDT is supported by market OKX
+🔍 Market OKX supports pair BTC-USDT: True
+🔍 OKX URL: https://www.okx.com/api/v5/market/ticker?instId=BTC-USDT
+🔍 OKX Response Code: 200, Response: {"code":"0","msg":"","data":[{"instType":"SPOT","instId":"BTC-USDT","last":"86416.1","lastSz":"0.001746","askPx":"86416.1","askSz":"0.5181236","bidPx":"86416","bidSz":"0.38852239","open24h":"88243.3",
+🔍 Extracting price for OKX, Raw Data: {'code': '0', 'msg': '', 'data': [{'instType': 'SPOT', 'instId': 'BTC-USDT', 'last': '86416.1', 'lastSz': '0.001746', 'askPx': '86416.1', 'askSz': '0.5181236', 'bidPx': '86416', 'bidSz': '0.38852239', 'open24h': '88243.3', 'high24h': '89040', 'low24h': '85217.8', 'volCcy24h': '976220351.950302093', 'vol24h': '11233.80896338', 'ts': '1741449723128', 'sodUtc0': '86797.2', 'sodUtc8': '86398.1'}]}
+🔍 Checking if pair IDR-BTC is supported by market Upbit
+🔍 Market Upbit supports pair IDR-BTC: True
+🔍 Upbit URL: https://id-api.upbit.com/v1/ticker?markets=IDR-BTC
+🔍 Upbit Response Code: 200, Response: [{"market":"IDR-BTC","trade_date":"20250308","trade_time":"084805","trade_timestamp":1741423685379,"opening_price":1420000000,"high_price":1450650000,"low_price":1410080000,"trade_price":1410080000,"p
+🔍 Extracting price for Upbit, Raw Data: [{'market': 'IDR-BTC', 'trade_date': '20250308', 'trade_time': '084805', 'trade_timestamp': 1741423685379, 'opening_price': 1420000000, 'high_price': 1450650000, 'low_price': 1410080000, 'trade_price': 1410080000, 'prev_closing_price': 1417960000, 'change': 'FALL', 'change_price': 7880000, 'change_rate': 0.0055572795, 'signed_change_price': -7880000, 'signed_change_rate': -0.0055572795, 'trade_volume': 0.01146678, 'acc_trade_price': 66102987.4739, 'acc_trade_price_24h': 66171699.6439, 'acc_trade_volume': 0.04663007, 'acc_trade_volume_24h': 0.04667857, 'highest_52_week_price': 1771820000.0, 'highest_52_week_date': '2025-01-20', 'lowest_52_week_price': 817750000.0, 'lowest_52_week_date': '2024-08-05', 'timestamp': 1741449720062}]
+🔍 Checking if pair BTC-USDT is supported by market Coinbase
+🔍 Market Coinbase supports pair BTC-USDT: True
+🔍 Coinbase URL: https://api.coinbase.com/v2/prices/BTC-USDT/spot
+🔍 Coinbase Response Code: 200, Response: {"data":{"amount":"86388.52","base":"BTC","currency":"USDT"}}
+🔍 Extracting price for Coinbase, Raw Data: {'data': {'amount': '86388.52', 'base': 'BTC', 'currency': 'USDT'}}
+✅ Bitget BTC_IDR: 86400.24
+🔍 Checking if pair BTC-USDT is supported by market KuCoin
+🔍 Market KuCoin supports pair BTC-USDT: True
+🔍 KuCoin URL: https://api.kucoin.com/api/v1/market/allTickers
+🔍 KuCoin Response Code: 200, Response: {"code":"200000","data":{"time":1741449724005,"ticker":[{"symbol":"MNDE-USDT","symbolName":"MNDE-USDT","buy":"0.08029","bestBidSize":"100","sell":"0.0805","bestAskSize":"330","changeRate":"-0.0736","c
+✅ KuCoin BTC_IDR: 86411.9
+🔍 Checking if pair BTCUSDT is supported by market KuCoin Order Book
+🔍 Market KuCoin Order Book supports pair BTCUSDT: False
+🔍 Kraken URL: https://api.kraken.com/0/public/Ticker?pair=kraken, Response Code: 200
+🔍 Kraken Data: {}
+❌ Kraken BTC_IDR tidak ditemukan dalam data!
+🔍 Checking if pair BTCUSDT is supported by market Kraken
+🔍 Kraken pair BTCUSDT mapped to None, supported: False
+🔍 Checking if pair ETHUSDT is supported by market Binance
+🔍 Market Binance supports pair ETHUSDT: True
+🔍 Binance URL: https://api.binance.com/api/v3/ticker/price?symbol=ETHUSDT
+🔍 Binance Response Code: 200, Response: {"symbol":"ETHUSDT","price":"2181.70000000"}
+🔍 Extracting price for Binance, Raw Data: {'symbol': 'ETHUSDT', 'price': '2181.70000000'}
+🔍 Checking if pair ETHUSDT is supported by market Bybit
+🔍 Market Bybit supports pair ETHUSDT: True
+🔍 Bybit URL: https://api.bybit.com/v5/market/tickers?category=spot&symbol=ETHUSDT
+🔍 Bybit Response Code: 200, Response: {"retCode":0,"retMsg":"OK","result":{"category":"spot","list":[{"symbol":"ETHUSDT","bid1Price":"2181.73","bid1Size":"0.48774","ask1Price":"2181.74","ask1Size":"0.15375","lastPrice":"2181.82","prevPric
+🔍 Extracting price for Bybit, Raw Data: {'retCode': 0, 'retMsg': 'OK', 'result': {'category': 'spot', 'list': [{'symbol': 'ETHUSDT', 'bid1Price': '2181.73', 'bid1Size': '0.48774', 'ask1Price': '2181.74', 'ask1Size': '0.15375', 'lastPrice': '2181.82', 'prevPrice24h': '2206.95', 'price24hPcnt': '-0.0114', 'highPrice24h': '2215.63', 'lowPrice24h': '2105.26', 'turnover24h': '182434159.6601656', 'volume24h': '84579.70966', 'usdIndexPrice': '2181.203001'}]}, 'retExtInfo': {}, 'time': 1741449727353}
+🔍 Checking if pair ETH-USDT is supported by market OKX
+🔍 Market OKX supports pair ETH-USDT: True
+🔍 OKX URL: https://www.okx.com/api/v5/market/ticker?instId=ETH-USDT
+🔍 OKX Response Code: 200, Response: {"code":"0","msg":"","data":[{"instType":"SPOT","instId":"ETH-USDT","last":"2181.9","lastSz":"0.601908","askPx":"2181.8","askSz":"1.906","bidPx":"2181.79","bidSz":"8.016721","open24h":"2200.27","high2
+🔍 Extracting price for OKX, Raw Data: {'code': '0', 'msg': '', 'data': [{'instType': 'SPOT', 'instId': 'ETH-USDT', 'last': '2181.9', 'lastSz': '0.601908', 'askPx': '2181.8', 'askSz': '1.906', 'bidPx': '2181.79', 'bidSz': '8.016721', 'open24h': '2200.27', 'high24h': '2216.51', 'low24h': '2105', 'volCcy24h': '311603340.2380501', 'vol24h': '144542.59312', 'ts': '1741449727148', 'sodUtc0': '2141.8', 'sodUtc8': '2181.71'}]}
+🔍 Checking if pair IDR-ETH is supported by market Upbit
+🔍 Market Upbit supports pair IDR-ETH: True
+🔍 Upbit URL: https://id-api.upbit.com/v1/ticker?markets=IDR-ETH
+🔍 Upbit Response Code: 200, Response: [{"market":"IDR-ETH","trade_date":"20250308","trade_time":"132301","trade_timestamp":1741440181048,"opening_price":36530000.0000,"high_price":36530000.0000,"low_price":36530000.0000,"trade_price":3653
+🔍 Extracting price for Upbit, Raw Data: [{'market': 'IDR-ETH', 'trade_date': '20250308', 'trade_time': '132301', 'trade_timestamp': 1741440181048, 'opening_price': 36530000.0, 'high_price': 36530000.0, 'low_price': 36530000.0, 'trade_price': 36530000.0, 'prev_closing_price': 35140000.0, 'change': 'RISE', 'change_price': 1390000.0, 'change_rate': 0.0395560615, 'signed_change_price': 1390000.0, 'signed_change_rate': 0.0395560615, 'trade_volume': 0.0002084, 'acc_trade_price': 7612.852, 'acc_trade_price_24h': 7612.852, 'acc_trade_volume': 0.0002084, 'acc_trade_volume_24h': 0.0002084, 'highest_52_week_price': 65000000.0, 'highest_52_week_date': '2024-12-16', 'lowest_52_week_price': 33760000.0, 'lowest_52_week_date': '2024-09-06', 'timestamp': 1741449720061}]
+🔍 Checking if pair ETH-USDT is supported by market Coinbase
+🔍 Market Coinbase supports pair ETH-USDT: True
+🔍 Coinbase URL: https://api.coinbase.com/v2/prices/ETH-USDT/spot
+🔍 Coinbase Response Code: 200, Response: {"data":{"amount":"2181.105","base":"ETH","currency":"USDT"}}
+🔍 Extracting price for Coinbase, Raw Data: {'data': {'amount': '2181.105', 'base': 'ETH', 'currency': 'USDT'}}
+✅ Bitget ETH_IDR: 2182.01
+🔍 Checking if pair ETH-USDT is supported by market KuCoin
+🔍 Market KuCoin supports pair ETH-USDT: True
+🔍 KuCoin URL: https://api.kucoin.com/api/v1/market/allTickers
+🔍 KuCoin Response Code: 200, Response: {"code":"200000","data":{"time":1741449728025,"ticker":[{"symbol":"MNDE-USDT","symbolName":"MNDE-USDT","buy":"0.08029","bestBidSize":"100","sell":"0.0805","bestAskSize":"330","changeRate":"-0.0736","c
+✅ KuCoin ETH_IDR: 2181.86
+🔍 Checking if pair ETHUSDT is supported by market KuCoin Order Book
+🔍 Market KuCoin Order Book supports pair ETHUSDT: False
+❌ Kraken ETH_IDR tidak ditemukan dalam pair map! Mencari: ETHUSD
+🔍 Checking if pair ETHUSDT is supported by market Kraken
+🔍 Kraken pair ETHUSDT mapped to None, supported: False
+🔍 Checking if pair DOGEUSDT is supported by market Binance
+🔍 Market Binance supports pair DOGEUSDT: True
+🔍 Binance URL: https://api.binance.com/api/v3/ticker/price?symbol=DOGEUSDT
+🔍 Binance Response Code: 200, Response: {"symbol":"DOGEUSDT","price":"0.19487000"}
+🔍 Extracting price for Binance, Raw Data: {'symbol': 'DOGEUSDT', 'price': '0.19487000'}
+🔍 Checking if pair DOGEUSDT is supported by market Bybit
+🔍 Market Bybit supports pair DOGEUSDT: True
+🔍 Bybit URL: https://api.bybit.com/v5/market/tickers?category=spot&symbol=DOGEUSDT
+🔍 Bybit Response Code: 200, Response: {"retCode":0,"retMsg":"OK","result":{"category":"spot","list":[{"symbol":"DOGEUSDT","bid1Price":"0.1949","bid1Size":"1002.7","ask1Price":"0.19491","ask1Size":"6498","lastPrice":"0.19488","prevPrice24h
+🔍 Extracting price for Bybit, Raw Data: {'retCode': 0, 'retMsg': 'OK', 'result': {'category': 'spot', 'list': [{'symbol': 'DOGEUSDT', 'bid1Price': '0.1949', 'bid1Size': '1002.7', 'ask1Price': '0.19491', 'ask1Size': '6498', 'lastPrice': '0.19488', 'prevPrice24h': '0.20512', 'price24hPcnt': '-0.0499', 'highPrice24h': '0.20726', 'lowPrice24h': '0.19305', 'turnover24h': '30041292.230448', 'volume24h': '150516612.4', 'usdIndexPrice': '0.194852'}]}, 'retExtInfo': {}, 'time': 1741449731231}
+🔍 Checking if pair DOGE-USDT is supported by market OKX
+🔍 Market OKX supports pair DOGE-USDT: True
+🔍 OKX URL: https://www.okx.com/api/v5/market/ticker?instId=DOGE-USDT
+🔍 OKX Response Code: 200, Response: {"code":"0","msg":"","data":[{"instType":"SPOT","instId":"DOGE-USDT","last":"0.19487","lastSz":"111","askPx":"0.19491","askSz":"250","bidPx":"0.1949","bidSz":"11880.717724","open24h":"0.20472","high24
+🔍 Extracting price for OKX, Raw Data: {'code': '0', 'msg': '', 'data': [{'instType': 'SPOT', 'instId': 'DOGE-USDT', 'last': '0.19487', 'lastSz': '111', 'askPx': '0.19491', 'askSz': '250', 'bidPx': '0.1949', 'bidSz': '11880.717724', 'open24h': '0.20472', 'high24h': '0.20724', 'low24h': '0.19301', 'volCcy24h': '73850839.92881062835', 'vol24h': '370195499.565556', 'ts': '1741449731610', 'sodUtc0': '0.19843', 'sodUtc8': '0.19469'}]}
+🔍 Checking if pair IDR-DOGE is supported by market Upbit
+🔍 Market Upbit supports pair IDR-DOGE: True
+🔍 Upbit URL: https://id-api.upbit.com/v1/ticker?markets=IDR-DOGE
+🔍 Upbit Response Code: 200, Response: [{"market":"IDR-DOGE","trade_date":"20250308","trade_time":"072534","trade_timestamp":1741418734910,"opening_price":3220.0000,"high_price":3220.0000,"low_price":3220.0000,"trade_price":3220.0000,"prev
+🔍 Extracting price for Upbit, Raw Data: [{'market': 'IDR-DOGE', 'trade_date': '20250308', 'trade_time': '072534', 'trade_timestamp': 1741418734910, 'opening_price': 3220.0, 'high_price': 3220.0, 'low_price': 3220.0, 'trade_price': 3220.0, 'prev_closing_price': 3090.0, 'change': 'RISE', 'change_price': 130.0, 'change_rate': 0.0420711974, 'signed_change_price': 130.0, 'signed_change_rate': 0.0420711974, 'trade_volume': 12.70576352, 'acc_trade_price': 40912.5585344, 'acc_trade_price_24h': 871087.9668665, 'acc_trade_volume': 12.70576352, 'acc_trade_volume_24h': 281.37094421, 'highest_52_week_price': 7530.0, 'highest_52_week_date': '2024-12-08', 'lowest_52_week_price': 1360.0, 'lowest_52_week_date': '2024-08-05', 'timestamp': 1741449720064}]
+🔍 Checking if pair DOGE-USDT is supported by market Coinbase
+🔍 Market Coinbase supports pair DOGE-USDT: True
+🔍 Coinbase URL: https://api.coinbase.com/v2/prices/DOGE-USDT/spot
+🔍 Coinbase Response Code: 200, Response: {"data":{"amount":"0.19515","base":"DOGE","currency":"USDT"}}
+🔍 Extracting price for Coinbase, Raw Data: {'data': {'amount': '0.19515', 'base': 'DOGE', 'currency': 'USDT'}}
+✅ Bitget DOGE_IDR: 0.19497
+🔍 Checking if pair DOGE-USDT is supported by market KuCoin
+🔍 Market KuCoin supports pair DOGE-USDT: True
+🔍 KuCoin URL: https://api.kucoin.com/api/v1/market/allTickers
+🔍 KuCoin Response Code: 200, Response: {"code":"200000","data":{"time":1741449733030,"ticker":[{"symbol":"MNDE-USDT","symbolName":"MNDE-USDT","buy":"0.08029","bestBidSize":"100","sell":"0.0805","bestAskSize":"330","changeRate":"-0.0736","c
+✅ KuCoin DOGE_IDR: 0.19484
+🔍 Checking if pair DOGEUSDT is supported by market KuCoin Order Book
+🔍 Market KuCoin Order Book supports pair DOGEUSDT: False
+❌ Kraken DOGE_IDR tidak ditemukan dalam pair map! Mencari: DOGEUSD
+🔍 Checking if pair DOGEUSDT is supported by market Kraken
+🔍 Kraken pair DOGEUSDT mapped to None, supported: False
+🔍 Checking if pair XRPUSDT is supported by market Binance
+🔍 Market Binance supports pair XRPUSDT: True
+🔍 Binance URL: https://api.binance.com/api/v3/ticker/price?symbol=XRPUSDT
+🔍 Binance Response Code: 200, Response: {"symbol":"XRPUSDT","price":"2.35310000"}
+🔍 Extracting price for Binance, Raw Data: {'symbol': 'XRPUSDT', 'price': '2.35310000'}
+🔍 Checking if pair XRPUSDT is supported by market Bybit
+🔍 Market Bybit supports pair XRPUSDT: True
+🔍 Bybit URL: https://api.bybit.com/v5/market/tickers?category=spot&symbol=XRPUSDT
+🔍 Bybit Response Code: 200, Response: {"retCode":0,"retMsg":"OK","result":{"category":"spot","list":[{"symbol":"XRPUSDT","bid1Price":"2.3536","bid1Size":"50.96","ask1Price":"2.3537","ask1Size":"336.89","lastPrice":"2.3536","prevPrice24h":
+🔍 Extracting price for Bybit, Raw Data: {'retCode': 0, 'retMsg': 'OK', 'result': {'category': 'spot', 'list': [{'symbol': 'XRPUSDT', 'bid1Price': '2.3536', 'bid1Size': '50.96', 'ask1Price': '2.3537', 'ask1Size': '336.89', 'lastPrice': '2.3536', 'prevPrice24h': '2.4978', 'price24hPcnt': '-0.0577', 'highPrice24h': '2.5332', 'lowPrice24h': '2.302', 'turnover24h': '239622844.778056', 'volume24h': '99993460.42', 'usdIndexPrice': '2.352235'}]}, 'retExtInfo': {}, 'time': 1741449735049}
+🔍 Checking if pair XRP-USDT is supported by market OKX
+🔍 Market OKX supports pair XRP-USDT: True
+🔍 OKX URL: https://www.okx.com/api/v5/market/ticker?instId=XRP-USDT
+🔍 OKX Response Code: 200, Response: {"code":"0","msg":"","data":[{"instType":"SPOT","instId":"XRP-USDT","last":"2.3528","lastSz":"133","askPx":"2.3529","askSz":"107.680549","bidPx":"2.3528","bidSz":"1681.155747","open24h":"2.4956","high
+🔍 Extracting price for OKX, Raw Data: {'code': '0', 'msg': '', 'data': [{'instType': 'SPOT', 'instId': 'XRP-USDT', 'last': '2.3528', 'lastSz': '133', 'askPx': '2.3529', 'askSz': '107.680549', 'bidPx': '2.3528', 'bidSz': '1681.155747', 'open24h': '2.4956', 'high24h': '2.5337', 'low24h': '2.3019', 'volCcy24h': '104942985.8100827492', 'vol24h': '43657510.06682', 'ts': '1741449735215', 'sodUtc0': '2.3856', 'sodUtc8': '2.3515'}]}
+🔍 Checking if pair IDR-XRP is supported by market Upbit
+🔍 Market Upbit supports pair IDR-XRP: True
+🔍 Upbit URL: https://id-api.upbit.com/v1/ticker?markets=IDR-XRP
+🔍 Upbit Response Code: 200, Response: [{"market":"IDR-XRP","trade_date":"20250308","trade_time":"033445","trade_timestamp":1741404885737,"opening_price":38550.0000,"high_price":38550.0000,"low_price":38550.0000,"trade_price":38550.0000,"p
+🔍 Extracting price for Upbit, Raw Data: [{'market': 'IDR-XRP', 'trade_date': '20250308', 'trade_time': '033445', 'trade_timestamp': 1741404885737, 'opening_price': 38550.0, 'high_price': 38550.0, 'low_price': 38550.0, 'trade_price': 38550.0, 'prev_closing_price': 38800.0, 'change': 'FALL', 'change_price': 250.0, 'change_rate': 0.006443299, 'signed_change_price': -250.0, 'signed_change_rate': -0.006443299, 'trade_volume': 25.94033722, 'acc_trade_price': 999999.999831, 'acc_trade_price_24h': 4322309.45028, 'acc_trade_volume': 25.94033722, 'acc_trade_volume_24h': 110.59200352, 'highest_52_week_price': 55000.0, 'highest_52_week_date': '2025-02-19', 'lowest_52_week_price': 6460.0, 'lowest_52_week_date': '2024-07-05', 'timestamp': 1741449720061}]
+🔍 Checking if pair XRP-USDT is supported by market Coinbase
+🔍 Market Coinbase supports pair XRP-USDT: True
+🔍 Coinbase URL: https://api.coinbase.com/v2/prices/XRP-USDT/spot
+🔍 Coinbase Response Code: 200, Response: {"data":{"amount":"2.3499","base":"XRP","currency":"USDT"}}
+🔍 Extracting price for Coinbase, Raw Data: {'data': {'amount': '2.3499', 'base': 'XRP', 'currency': 'USDT'}}
+✅ Bitget XRP_IDR: 2.3526
+🔍 Checking if pair XRP-USDT is supported by market KuCoin
+🔍 Market KuCoin supports pair XRP-USDT: True
+🔍 KuCoin URL: https://api.kucoin.com/api/v1/market/allTickers
+🔍 KuCoin Response Code: 200, Response: {"code":"200000","data":{"time":1741449735067,"ticker":[{"symbol":"MNDE-USDT","symbolName":"MNDE-USDT","buy":"0.08029","bestBidSize":"100","sell":"0.0805","bestAskSize":"330","changeRate":"-0.0736","c
+✅ KuCoin XRP_IDR: 2.35265
+🔍 Checking if pair XRPUSDT is supported by market KuCoin Order Book
+🔍 Market KuCoin Order Book supports pair XRPUSDT: False
+🔍 Kraken URL: https://api.kraken.com/0/public/Ticker?pair=kraken, Response Code: 200
+🔍 Kraken Data: {}
+❌ Kraken XRP_IDR tidak ditemukan dalam data!
+🔍 Checking if pair XRPUSDT is supported by market Kraken
+🔍 Kraken pair XRPUSDT mapped to None, supported: False
+🔍 Debug Market Data: {'Indodax': {'BTC_IDR': 87074.8887494872, 'ETH_IDR': 2197.661363066363, 'DOGE_IDR': 0.19622523959408356, 'XRP_IDR': 2.367457515702618}, 'Indodax Order Book': {}, 'Binance': {'BTC_IDR': 86410.86, 'ETH_IDR': 2181.7, 'DOGE_IDR': 0.19487, 'XRP_IDR': 2.3531}, 'Binance Order Book': {}, 'Bybit': {'BTC_IDR': 86424.78, 'ETH_IDR': 2181.82, 'DOGE_IDR': 0.19488, 'XRP_IDR': 2.3536}, 'Bybit Order Book': {}, 'OKX': {'BTC_IDR': 86416.1, 'ETH_IDR': 2181.9, 'DOGE_IDR': 0.19487, 'XRP_IDR': 2.3528}, 'OKX Order Book': {}, 'Upbit': {'BTC_IDR': 86466.65182713291, 'ETH_IDR': 2240.03375074121, 'DOGE_IDR': 0.19745164734154658, 'XRP_IDR': 2.363900933234975}, 'Upbit Order Book': {}, 'Coinbase': {'BTC_IDR': 86388.52, 'ETH_IDR': 2181.105, 'DOGE_IDR': 0.19515, 'XRP_IDR': 2.3499}, 'Coinbase Order Book': {}, 'Bitget': {'BTC_IDR': 86400.24, 'ETH_IDR': 2182.01, 'DOGE_IDR': 0.19497, 'XRP_IDR': 2.3526}, 'Bitget Order Book': {}, 'KuCoin': {'BTC_IDR': 86411.9, 'ETH_IDR': 2181.86, 'DOGE_IDR': 0.19484, 'XRP_IDR': 2.35265}, 'KuCoin Order Book': {}, 'Kraken': {}, 'Kraken Order Book': {}}
+Debug: Binance BTC_IDR - Price: 86410.86, Indodax: 87074.8887494872, Diff: -0.7625950018697134%, Margin Error: 0.38%
+Debug: Bybit BTC_IDR - Price: 86424.78, Indodax: 87074.8887494872, Diff: -0.7466087626681385%, Margin Error: 0.37%
+Debug: OKX BTC_IDR - Price: 86416.1, Indodax: 87074.8887494872, Diff: -0.7565771934346309%, Margin Error: 0.38%
+Debug: Upbit BTC_IDR - Price: 86466.65182713291, Indodax: 87074.8887494872, Diff: -0.6985216186772032%, Margin Error: 0.35%
+Debug: Coinbase BTC_IDR - Price: 86388.52, Indodax: 87074.8887494872, Diff: -0.7882510782894814%, Margin Error: 0.39%
+Debug: Bitget BTC_IDR - Price: 86400.24, Indodax: 87074.8887494872, Diff: -0.7747913998812559%, Margin Error: 0.39%
+Debug: KuCoin BTC_IDR - Price: 86411.9, Indodax: 87074.8887494872, Diff: -0.7614006276764994%, Margin Error: 0.38%
+Debug: Binance ETH_IDR - Price: 2181.7, Indodax: 2197.661363066363, Diff: -0.7262885599486697%, Margin Error: 0.36%
+Debug: Bybit ETH_IDR - Price: 2181.82, Indodax: 2197.661363066363, Diff: -0.7208282100504984%, Margin Error: 0.36%
+Debug: OKX ETH_IDR - Price: 2181.9, Indodax: 2197.661363066363, Diff: -0.7171879767850646%, Margin Error: 0.36%
+Debug: Upbit ETH_IDR - Price: 2240.03375074121, Indodax: 2197.661363066363, Diff: 1.928067189374695%, Margin Error: 0.96%
+Debug: Coinbase ETH_IDR - Price: 2181.105, Indodax: 2197.661363066363, Diff: -0.753362794860349%, Margin Error: 0.38%
+Debug: Bitget ETH_IDR - Price: 2182.01, Indodax: 2197.661363066363, Diff: -0.7121826560450828%, Margin Error: 0.36%
+Debug: KuCoin ETH_IDR - Price: 2181.86, Indodax: 2197.661363066363, Diff: -0.7190080934177815%, Margin Error: 0.36%
+Debug: Binance DOGE_IDR - Price: 0.19487, Indodax: 0.19622523959408356, Diff: -0.6906550843750023%, Margin Error: 0.35%
+Debug: Bybit DOGE_IDR - Price: 0.19488, Indodax: 0.19622523959408356, Diff: -0.6855588999999972%, Margin Error: 0.34%
+Debug: OKX DOGE_IDR - Price: 0.19487, Indodax: 0.19622523959408356, Diff: -0.6906550843750023%, Margin Error: 0.35%
+Debug: Upbit DOGE_IDR - Price: 0.19745164734154658, Indodax: 0.19622523959408356, Diff: 0.6249999999999992%, Margin Error: 0.31%
+Debug: Coinbase DOGE_IDR - Price: 0.19515, Indodax: 0.19622523959408356, Diff: -0.547961921875001%, Margin Error: 0.27%
+Debug: Bitget DOGE_IDR - Price: 0.19497, Indodax: 0.19622523959408356, Diff: -0.6396932406249938%, Margin Error: 0.32%
+Debug: KuCoin DOGE_IDR - Price: 0.19484, Indodax: 0.19622523959408356, Diff: -0.7059436374999892%, Margin Error: 0.35%
+Debug: Binance XRP_IDR - Price: 2.3531, Indodax: 2.367457515702618, Diff: -0.6064529398052091%, Margin Error: 0.30%
+Debug: Bybit XRP_IDR - Price: 2.3536, Indodax: 2.367457515702618, Diff: -0.5853332366348747%, Margin Error: 0.29%
+Debug: OKX XRP_IDR - Price: 2.3528, Indodax: 2.367457515702618, Diff: -0.6191247617074135%, Margin Error: 0.31%
+Debug: Upbit XRP_IDR - Price: 2.363900933234975, Indodax: 2.367457515702618, Diff: -0.15022793203480778%, Margin Error: 0.08%
+Debug: Coinbase XRP_IDR - Price: 2.3499, Indodax: 2.367457515702618, Diff: -0.7416190400953083%, Margin Error: 0.37%
+Debug: Bitget XRP_IDR - Price: 2.3526, Indodax: 2.367457515702618, Diff: -0.6275726429755436%, Margin Error: 0.31%
+Debug: KuCoin XRP_IDR - Price: 2.35265, Indodax: 2.367457515702618, Diff: -0.6254606726584969%, Margin Error: 0.31%
+🔍 Bitget Raw Data Count: 883
+🔍 Kraken Raw Data Count: 0
+🔍 Checking if pair BTCUSDT is supported by market Binance
+🔍 Market Binance supports pair BTCUSDT: True
+🔍 Binance URL: https://api.binance.com/api/v3/ticker/price?symbol=BTCUSDT
+🔍 Binance Response Code: 200, Response: {"symbol":"BTCUSDT","price":"86431.69000000"}
+🔍 Extracting price for Binance, Raw Data: {'symbol': 'BTCUSDT', 'price': '86431.69000000'}
+🔍 Checking if pair BTCUSDT is supported by market Bybit
+🔍 Market Bybit supports pair BTCUSDT: True
+🔍 Bybit URL: https://api.bybit.com/v5/market/tickers?category=spot&symbol=BTCUSDT
+🔍 Bybit Response Code: 200, Response: {"retCode":0,"retMsg":"OK","result":{"category":"spot","list":[{"symbol":"BTCUSDT","bid1Price":"86443.82","bid1Size":"0.567736","ask1Price":"86443.83","ask1Size":"0.038828","lastPrice":"86443.18","pre
+🔍 Extracting price for Bybit, Raw Data: {'retCode': 0, 'retMsg': 'OK', 'result': {'category': 'spot', 'list': [{'symbol': 'BTCUSDT', 'bid1Price': '86443.82', 'bid1Size': '0.567736', 'ask1Price': '86443.83', 'ask1Size': '0.038828', 'lastPrice': '86443.18', 'prevPrice24h': '88377.53', 'price24hPcnt': '-0.0219', 'highPrice24h': '89068.92', 'lowPrice24h': '85226.28', 'turnover24h': '784105065.40355604', 'volume24h': '9022.729461', 'usdIndexPrice': '86401.356786'}]}, 'retExtInfo': {}, 'time': 1741449740866}
+🔍 Checking if pair BTC-USDT is supported by market OKX
+🔍 Market OKX supports pair BTC-USDT: True
+🔍 OKX URL: https://www.okx.com/api/v5/market/ticker?instId=BTC-USDT
+🔍 OKX Response Code: 200, Response: {"code":"0","msg":"","data":[{"instType":"SPOT","instId":"BTC-USDT","last":"86431.4","lastSz":"0.00114333","askPx":"86432.6","askSz":"0.01","bidPx":"86432.5","bidSz":"1.28631266","open24h":"88243.3","
+🔍 Extracting price for OKX, Raw Data: {'code': '0', 'msg': '', 'data': [{'instType': 'SPOT', 'instId': 'BTC-USDT', 'last': '86431.4', 'lastSz': '0.00114333', 'askPx': '86432.6', 'askSz': '0.01', 'bidPx': '86432.5', 'bidSz': '1.28631266', 'open24h': '88243.3', 'high24h': '89040', 'low24h': '85217.8', 'volCcy24h': '976282673.473836162', 'vol24h': '11234.53009418', 'ts': '1741449740824', 'sodUtc0': '86797.2', 'sodUtc8': '86398.1'}]}
+🔍 Checking if pair IDR-BTC is supported by market Upbit
+🔍 Market Upbit supports pair IDR-BTC: True
+🔍 Upbit URL: https://id-api.upbit.com/v1/ticker?markets=IDR-BTC
+🔍 Upbit Response Code: 200, Response: [{"market":"IDR-BTC","trade_date":"20250308","trade_time":"084805","trade_timestamp":1741423685379,"opening_price":1420000000,"high_price":1450650000,"low_price":1410080000,"trade_price":1410080000,"p
+🔍 Extracting price for Upbit, Raw Data: [{'market': 'IDR-BTC', 'trade_date': '20250308', 'trade_time': '084805', 'trade_timestamp': 1741423685379, 'opening_price': 1420000000, 'high_price': 1450650000, 'low_price': 1410080000, 'trade_price': 1410080000, 'prev_closing_price': 1417960000, 'change': 'FALL', 'change_price': 7880000, 'change_rate': 0.0055572795, 'signed_change_price': -7880000, 'signed_change_rate': -0.0055572795, 'trade_volume': 0.01146678, 'acc_trade_price': 66102987.4739, 'acc_trade_price_24h': 66171699.6439, 'acc_trade_volume': 0.04663007, 'acc_trade_volume_24h': 0.04667857, 'highest_52_week_price': 1771820000.0, 'highest_52_week_date': '2025-01-20', 'lowest_52_week_price': 817750000.0, 'lowest_52_week_date': '2024-08-05', 'timestamp': 1741449720062}]
+🔍 Checking if pair BTC-USDT is supported by market Coinbase
+🔍 Market Coinbase supports pair BTC-USDT: True
+🔍 Coinbase URL: https://api.coinbase.com/v2/prices/BTC-USDT/spot
+🔍 Coinbase Response Code: 200, Response: {"data":{"amount":"86388.52","base":"BTC","currency":"USDT"}}
+🔍 Extracting price for Coinbase, Raw Data: {'data': {'amount': '86388.52', 'base': 'BTC', 'currency': 'USDT'}}
+✅ Bitget BTC_IDR: 86421.11
+🔍 Checking if pair BTC-USDT is supported by market KuCoin
+🔍 Market KuCoin supports pair BTC-USDT: True
+🔍 KuCoin URL: https://api.kucoin.com/api/v1/market/allTickers
+🔍 KuCoin Response Code: 200, Response: {"code":"200000","data":{"time":1741449740018,"ticker":[{"symbol":"MNDE-USDT","symbolName":"MNDE-USDT","buy":"0.08029","bestBidSize":"100","sell":"0.0805","bestAskSize":"330","changeRate":"-0.0736","c
+✅ KuCoin BTC_IDR: 86433.1
+🔍 Checking if pair BTCUSDT is supported by market KuCoin Order Book
+🔍 Market KuCoin Order Book supports pair BTCUSDT: False
+🔍 Kraken URL: https://api.kraken.com/0/public/Ticker?pair=kraken, Response Code: 200
+🔍 Kraken Data: {}
+❌ Kraken BTC_IDR tidak ditemukan dalam data!
+🔍 Checking if pair BTCUSDT is supported by market Kraken
+🔍 Kraken pair BTCUSDT mapped to None, supported: False
+🔍 Checking if pair ETHUSDT is supported by market Binance
+🔍 Market Binance supports pair ETHUSDT: True
+🔍 Binance URL: https://api.binance.com/api/v3/ticker/price?symbol=ETHUSDT
+🔍 Binance Response Code: 200, Response: {"symbol":"ETHUSDT","price":"2183.31000000"}
+🔍 Extracting price for Binance, Raw Data: {'symbol': 'ETHUSDT', 'price': '2183.31000000'}
+🔍 Checking if pair ETHUSDT is supported by market Bybit
+🔍 Market Bybit supports pair ETHUSDT: True
+🔍 Bybit URL: https://api.bybit.com/v5/market/tickers?category=spot&symbol=ETHUSDT
+🔍 Bybit Response Code: 200, Response: {"retCode":0,"retMsg":"OK","result":{"category":"spot","list":[{"symbol":"ETHUSDT","bid1Price":"2183.06","bid1Size":"2.52","ask1Price":"2183.08","ask1Size":"0.5","lastPrice":"2183.52","prevPrice24h":"
+🔍 Extracting price for Bybit, Raw Data: {'retCode': 0, 'retMsg': 'OK', 'result': {'category': 'spot', 'list': [{'symbol': 'ETHUSDT', 'bid1Price': '2183.06', 'bid1Size': '2.52', 'ask1Price': '2183.08', 'ask1Size': '0.5', 'lastPrice': '2183.52', 'prevPrice24h': '2206.95', 'price24hPcnt': '-0.0106', 'highPrice24h': '2215.63', 'lowPrice24h': '2105.26', 'turnover24h': '182457694.1537006', 'volume24h': '84590.49253', 'usdIndexPrice': '2182.745091'}]}, 'retExtInfo': {}, 'time': 1741449745079}
+🔍 Checking if pair ETH-USDT is supported by market OKX
+🔍 Market OKX supports pair ETH-USDT: True
+🔍 OKX URL: https://www.okx.com/api/v5/market/ticker?instId=ETH-USDT
+🔍 OKX Response Code: 200, Response: {"code":"0","msg":"","data":[{"instType":"SPOT","instId":"ETH-USDT","last":"2183.44","lastSz":"0.000464","askPx":"2183.21","askSz":"5.200045","bidPx":"2183.2","bidSz":"6.942796","open24h":"2200.27","h
+🔍 Extracting price for OKX, Raw Data: {'code': '0', 'msg': '', 'data': [{'instType': 'SPOT', 'instId': 'ETH-USDT', 'last': '2183.44', 'lastSz': '0.000464', 'askPx': '2183.21', 'askSz': '5.200045', 'bidPx': '2183.2', 'bidSz': '6.942796', 'open24h': '2200.27', 'high24h': '2216.51', 'low24h': '2105', 'volCcy24h': '311611468.95019855', 'vol24h': '144546.316692', 'ts': '1741449745321', 'sodUtc0': '2141.8', 'sodUtc8': '2181.71'}]}
+🔍 Checking if pair IDR-ETH is supported by market Upbit
+🔍 Market Upbit supports pair IDR-ETH: True
+🔍 Upbit URL: https://id-api.upbit.com/v1/ticker?markets=IDR-ETH
+🔍 Upbit Response Code: 200, Response: [{"market":"IDR-ETH","trade_date":"20250308","trade_time":"132301","trade_timestamp":1741440181048,"opening_price":36530000.0000,"high_price":36530000.0000,"low_price":36530000.0000,"trade_price":3653
+🔍 Extracting price for Upbit, Raw Data: [{'market': 'IDR-ETH', 'trade_date': '20250308', 'trade_time': '132301', 'trade_timestamp': 1741440181048, 'opening_price': 36530000.0, 'high_price': 36530000.0, 'low_price': 36530000.0, 'trade_price': 36530000.0, 'prev_closing_price': 35140000.0, 'change': 'RISE', 'change_price': 1390000.0, 'change_rate': 0.0395560615, 'signed_change_price': 1390000.0, 'signed_change_rate': 0.0395560615, 'trade_volume': 0.0002084, 'acc_trade_price': 7612.852, 'acc_trade_price_24h': 7612.852, 'acc_trade_volume': 0.0002084, 'acc_trade_volume_24h': 0.0002084, 'highest_52_week_price': 65000000.0, 'highest_52_week_date': '2024-12-16', 'lowest_52_week_price': 33760000.0, 'lowest_52_week_date': '2024-09-06', 'timestamp': 1741449720061}]
+🔍 Checking if pair ETH-USDT is supported by market Coinbase
+🔍 Market Coinbase supports pair ETH-USDT: True
+🔍 Coinbase URL: https://api.coinbase.com/v2/prices/ETH-USDT/spot
+🔍 Coinbase Response Code: 200, Response: {"data":{"amount":"2181.105","base":"ETH","currency":"USDT"}}
+🔍 Extracting price for Coinbase, Raw Data: {'data': {'amount': '2181.105', 'base': 'ETH', 'currency': 'USDT'}}
+✅ Bitget ETH_IDR: 2182.39
+🔍 Checking if pair ETH-USDT is supported by market KuCoin
+🔍 Market KuCoin supports pair ETH-USDT: True
+🔍 KuCoin URL: https://api.kucoin.com/api/v1/market/allTickers
+🔍 KuCoin Response Code: 200, Response: {"code":"200000","data":{"time":1741449747007,"ticker":[{"symbol":"MNDE-USDT","symbolName":"MNDE-USDT","buy":"0.08029","bestBidSize":"100","sell":"0.0805","bestAskSize":"330","changeRate":"-0.0736","c
+✅ KuCoin ETH_IDR: 2183.47
+🔍 Checking if pair ETHUSDT is supported by market KuCoin Order Book
+🔍 Market KuCoin Order Book supports pair ETHUSDT: False
+❌ Kraken ETH_IDR tidak ditemukan dalam pair map! Mencari: ETHUSD
+🔍 Checking if pair ETHUSDT is supported by market Kraken
+🔍 Kraken pair ETHUSDT mapped to None, supported: False
+🔍 Checking if pair DOGEUSDT is supported by market Binance
+🔍 Market Binance supports pair DOGEUSDT: True
+🔍 Binance URL: https://api.binance.com/api/v3/ticker/price?symbol=DOGEUSDT
+🔍 Binance Response Code: 200, Response: {"symbol":"DOGEUSDT","price":"0.19504000"}
+🔍 Extracting price for Binance, Raw Data: {'symbol': 'DOGEUSDT', 'price': '0.19504000'}
+🔍 Checking if pair DOGEUSDT is supported by market Bybit
+🔍 Market Bybit supports pair DOGEUSDT: True
+🔍 Bybit URL: https://api.bybit.com/v5/market/tickers?category=spot&symbol=DOGEUSDT
+🔍 Bybit Response Code: 200, Response: {"retCode":0,"retMsg":"OK","result":{"category":"spot","list":[{"symbol":"DOGEUSDT","bid1Price":"0.19505","bid1Size":"2241.7","ask1Price":"0.19507","ask1Size":"5026.3","lastPrice":"0.19504","prevPrice
+🔍 Extracting price for Bybit, Raw Data: {'retCode': 0, 'retMsg': 'OK', 'result': {'category': 'spot', 'list': [{'symbol': 'DOGEUSDT', 'bid1Price': '0.19505', 'bid1Size': '2241.7', 'ask1Price': '0.19507', 'ask1Size': '5026.3', 'lastPrice': '0.19504', 'prevPrice24h': '0.20512', 'price24hPcnt': '-0.0491', 'highPrice24h': '0.20726', 'lowPrice24h': '0.19305', 'turnover24h': '30045025.368722', 'volume24h': '150535756', 'usdIndexPrice': '0.194991'}]}, 'retExtInfo': {}, 'time': 1741449748970}
+🔍 Checking if pair DOGE-USDT is supported by market OKX
+🔍 Market OKX supports pair DOGE-USDT: True
+🔍 OKX URL: https://www.okx.com/api/v5/market/ticker?instId=DOGE-USDT
+🔍 OKX Response Code: 200, Response: {"code":"0","msg":"","data":[{"instType":"SPOT","instId":"DOGE-USDT","last":"0.1951","lastSz":"34.954229","askPx":"0.19508","askSz":"12012","bidPx":"0.19507","bidSz":"5475.406215","open24h":"0.20472",
+🔍 Extracting price for OKX, Raw Data: {'code': '0', 'msg': '', 'data': [{'instType': 'SPOT', 'instId': 'DOGE-USDT', 'last': '0.1951', 'lastSz': '34.954229', 'askPx': '0.19508', 'askSz': '12012', 'bidPx': '0.19507', 'bidSz': '5475.406215', 'open24h': '0.20472', 'high24h': '0.20724', 'low24h': '0.19301', 'volCcy24h': '73862976.80727338348', 'vol24h': '370257729.906327', 'ts': '1741449748207', 'sodUtc0': '0.19843', 'sodUtc8': '0.19469'}]}
+🔍 Checking if pair IDR-DOGE is supported by market Upbit
+🔍 Market Upbit supports pair IDR-DOGE: True
+🔍 Upbit URL: https://id-api.upbit.com/v1/ticker?markets=IDR-DOGE
+🔍 Upbit Response Code: 200, Response: [{"market":"IDR-DOGE","trade_date":"20250308","trade_time":"072534","trade_timestamp":1741418734910,"opening_price":3220.0000,"high_price":3220.0000,"low_price":3220.0000,"trade_price":3220.0000,"prev
+🔍 Extracting price for Upbit, Raw Data: [{'market': 'IDR-DOGE', 'trade_date': '20250308', 'trade_time': '072534', 'trade_timestamp': 1741418734910, 'opening_price': 3220.0, 'high_price': 3220.0, 'low_price': 3220.0, 'trade_price': 3220.0, 'prev_closing_price': 3090.0, 'change': 'RISE', 'change_price': 130.0, 'change_rate': 0.0420711974, 'signed_change_price': 130.0, 'signed_change_rate': 0.0420711974, 'trade_volume': 12.70576352, 'acc_trade_price': 40912.5585344, 'acc_trade_price_24h': 871087.9668665, 'acc_trade_volume': 12.70576352, 'acc_trade_volume_24h': 281.37094421, 'highest_52_week_price': 7530.0, 'highest_52_week_date': '2024-12-08', 'lowest_52_week_price': 1360.0, 'lowest_52_week_date': '2024-08-05', 'timestamp': 1741449720064}]
+🔍 Checking if pair DOGE-USDT is supported by market Coinbase
+🔍 Market Coinbase supports pair DOGE-USDT: True
+🔍 Coinbase URL: https://api.coinbase.com/v2/prices/DOGE-USDT/spot
+🔍 Coinbase Response Code: 200, Response: {"data":{"amount":"0.19515","base":"DOGE","currency":"USDT"}}
+🔍 Extracting price for Coinbase, Raw Data: {'data': {'amount': '0.19515', 'base': 'DOGE', 'currency': 'USDT'}}
+✅ Bitget DOGE_IDR: 0.19493
+🔍 Checking if pair DOGE-USDT is supported by market KuCoin
+🔍 Market KuCoin supports pair DOGE-USDT: True
+🔍 KuCoin URL: https://api.kucoin.com/api/v1/market/allTickers
+🔍 KuCoin Response Code: 200, Response: {"code":"200000","data":{"time":1741449750033,"ticker":[{"symbol":"MNDE-USDT","symbolName":"MNDE-USDT","buy":"0.08029","bestBidSize":"100","sell":"0.0805","bestAskSize":"330","changeRate":"-0.0736","c
+✅ KuCoin DOGE_IDR: 0.19498
+🔍 Checking if pair DOGEUSDT is supported by market KuCoin Order Book
+🔍 Market KuCoin Order Book supports pair DOGEUSDT: False
+❌ Kraken DOGE_IDR tidak ditemukan dalam pair map! Mencari: DOGEUSD
+🔍 Checking if pair DOGEUSDT is supported by market Kraken
+🔍 Kraken pair DOGEUSDT mapped to None, supported: False
+🔍 Checking if pair XRPUSDT is supported by market Binance
+🔍 Market Binance supports pair XRPUSDT: True
+
+c:\MASTER\New folder>
